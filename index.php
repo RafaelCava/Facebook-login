@@ -1,10 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
-
+    <meta name="author" content="Rafael Cavalcante" />
+    <meta name="description" content="Site simulando a página de login do Facebook." />
+    <meta name="keywords" content="Facebook, html, css, javascript, aprender, programar">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Login Facebook</title>
 </head>
@@ -22,6 +25,10 @@
                 <div class="form-element">
                     <p>Senha:</p>
                     <input type="password" name="email" id="">
+                </div>
+                <div class="form-element">
+                    <label for="">Lembrar-me:</label>
+                    <input type="checkbox" value="lembrar" />
                 </div>
                 <div class="form-element">
                     <input type="submit" value="Entrar" name="acao">
@@ -90,7 +97,7 @@
                         <div class="clear"></div>
                     </div>
                     <div class="w100">
-                        <h3>Gênero</h3>
+                        <h3>Gênero:</h3>
                         <div class="input-radio">
                             <input type="radio" value="masculino" name="sexo" id="">
                             <label for="">Masculino</label>
@@ -117,26 +124,26 @@
 
     <section class="linguas">
         <div class="center">
-            <nav>
-                <ul>
-                    <li><a class="selected" href="#">Português (Brasil)</a></li>
-                    <li><a href="">Português (Brasil)</a></li>
-                    <li><a href="">Português (Brasil)</a></li>
-                    <li><a href="">Português (Brasil)</a></li>
-                    <li><a href="">Português (Brasil)</a></li>
-                    <li><a href="">Português (Brasil)</a></li>
-                </ul>
-            </nav>
+            
+            
+                    <a class="selected" href="#">Português (Brasil)</a>
+                    <a href="">Português (Brasil)</a>
+                    <a href="">Português (Brasil)</a>
+                    <a href="">Português (Brasil)</a>
+                    <a href="">Português (Brasil)</a>
+                    <a href="">Português (Brasil)</a>
+            
+            
         </div>
 
         <div class="center">
-            <nav>
-                <ul>
-                    <li><a href="">Cadastre-se</a></li>
-                    <li><a href="">Entrar</a></li>
-                    <li><a href="">Messenger</a></li>
-                </ul>
-            </nav>
+        
+        
+                    <a href="">Cadastre-se</a>
+                    <a href="">Entrar</a>
+                    <a href="">Messenger</a>
+                
+            
         </div>
     </section>
 
