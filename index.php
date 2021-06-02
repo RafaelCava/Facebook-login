@@ -103,8 +103,8 @@
                             <input type="radio" value="personalizado" name="sexo" id="">
                             <label for="">Personalizado</label>
                         </div>
+                        <div class="clear"></div>
                     </div><!-- w100 -->
-                    <div class="clear"></div>
                     <div class="w50">
                         <input type="submit" value="Cadastre-se">
                     </div>
@@ -113,13 +113,13 @@
             </div><!-- abrir conta -->
             <div class="clear"></div>
         </div>
-    </section>
+    </section><!-- main -->
 
     <section class="linguas">
         <div class="center">
             <nav>
                 <ul>
-                    <li><a class="selected" href="">Português (Brasil)</a></li>
+                    <li><a class="selected" href="#">Português (Brasil)</a></li>
                     <li><a href="">Português (Brasil)</a></li>
                     <li><a href="">Português (Brasil)</a></li>
                     <li><a href="">Português (Brasil)</a></li>
