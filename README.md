@@ -2,4 +2,4 @@
 
 -Simular uma pagina de login do facebook
 
--Usando apenas HTML, CSS
+-Usando PHP básico e CSS
